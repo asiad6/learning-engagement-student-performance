@@ -1,0 +1,9 @@
+# Do not commit the large original archive or extracted raw tables
+data/raw/*
+!data/raw/.gitkeep
+
+# Python and Jupyter local files
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
